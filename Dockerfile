@@ -11,3 +11,4 @@ RUN cp fontconvert /usr/bin/
 RUN mkdir /fonts
 VOLUME ./:/fonts
 WORKDIR /fonts
+CMD fontconvert *.ttf 9
